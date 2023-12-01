@@ -1,0 +1,41 @@
+body,
+html {
+    height: 100%;
+    margin: 0;
+}
+
+.page-header {
+    font-family: 'Spirax', sans-serif;
+    font-size: 80px;
+    color: rgb(155, 24, 24);
+   
+}
+
+/* HOT */
+
+.hot-container {
+    background-image: url("img/hot.jpg");
+
+    /* Full height */
+        height: 100%;
+    
+        /* Center and scale the image nicely */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+}
+
+.hot-text {
+    height: 50px;
+    font-family: 'Poiret One', sans-serif;
+    background-color: rgb(155, 24, 24);
+    opacity: 70%;
+    color: white;
+}
+
+.hot-price {
+    background-color: black;
+    opacity: 70%;
+    color: white;
+    font-family: 'Poiret One', sans-serif;
+}
