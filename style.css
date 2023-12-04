@@ -52,31 +52,35 @@ main {
 .hot-container {
     background-image: url("img/hot.jpg");
     margin-top: 0;
-
-    /* Full height */
-        height: 100%;
-    
-        /* Center and scale the image nicely */
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .hot-text-container {
     display: flex;
     flex-direction: column;
+    
 }
 
 .hot-text {
+    display: flex;
     height: 50px;
     font-family: 'Poiret One', sans-serif;
+    font-size: 20px;
     background-color: rgb(155, 24, 24);
     opacity: 70%;
     color: white;
     padding-left: 20px;
     padding-right: 20px;
-    margin: auto;
+    margin: 10px auto;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    
 }
+
 
 .hot-price {
     background-color: black;
@@ -98,7 +102,7 @@ main {
         justify-content: space-between;
         padding-top: 0px;
         padding-bottom: 0;
-        line-height:  .2em;
+        line-height:  .01;
         padding-left: 20px;
         padding-right: 20px;
 }
