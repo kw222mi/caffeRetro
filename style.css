@@ -49,7 +49,7 @@ main {
 
 /* HOT */
 
-.hot-container {
+.container {
     background-image: url("img/hot.jpg");
     margin-top: 0;
     height: 100%;
@@ -58,14 +58,14 @@ main {
     background-size: cover;
 }
 
-.hot-text-container {
+.text-container {
     display: flex;
     flex-direction: column;
     
     
 }
 
-.hot-text {
+.text {
     display: flex;
     height: 50px;
     font-family: 'Poiret One', sans-serif;
@@ -89,7 +89,7 @@ main {
     margin: 10px 30%;
 }
 
-.hot-price {
+.price-list {
     display: flex;
     background-color: black;
     opacity: 70%;
