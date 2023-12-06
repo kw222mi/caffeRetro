@@ -1,15 +1,17 @@
 body,
 html {
-    height: 100%;
+    
     width: 1200px;
     margin-left: auto;
     margin-right: auto;
-
+    scroll-behavior: smooth;
 }
 
 header {
     margin: 0;
     opacity: 70%;
+    position: fixed;
+    z-index: 2;
 }
 
 .nav {
@@ -18,6 +20,10 @@ header {
     font-family: 'Spirax', sans-serif;
     font-size: 40px;   
     margin-bottom: 0;
+    width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+    
 }
 
 .nav-list {
@@ -30,6 +36,7 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    
 }
 
 a {
@@ -39,6 +46,8 @@ a {
 
 main {
     margin-top: 0;
+    height: 100vh;
+    z-index: 0;
 }
 
 .page-headline {
@@ -51,15 +60,29 @@ main {
 
 }
 
+#hot {
+background-image: url("img/hot.jpg");
+border-bottom: solid;
+border-color: red;
+border-width: 10px;
+}
+#juicy {
+    background-image: url("img/juicy.jpg");
+}
+#cosy {
+    background-image: url("img/cosy.jpg");
+}
 /* HOT */
 
 .container {
-    background-image: url("img/hot.jpg");
+    
     margin-top: 0;
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    z-index: 1;
+    
 }
 
 .text-container {
