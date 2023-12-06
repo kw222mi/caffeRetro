@@ -32,6 +32,7 @@ header {
     margin-left: 220px;
     margin-right: 220px;
     margin-bottom: 0;
+    margin-top: 0;
     overflow: hidden;
     display: flex;
     flex-direction: row;
